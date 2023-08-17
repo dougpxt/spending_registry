@@ -12,9 +12,9 @@
 <p>•Installation: Make sure you have Python and SQLite extension installed on your IDE. Clone this repository and navigate to the project directory.</p>
 <p></p>
 <p>•Dependencies: Install the required dependencies using the following command:</p>
-<p>•pip install PySimpleGUI</p>
+<p>>pip install PySimpleGUI</p>
 <p></p>
-<p><b>Run the Application</b>: Execute the spendingReg.py script to start the Spending Registry application.</p>
+<p><b>•Run the Application</b>: Execute the spendingReg.py script to start the Spending Registry application.</p>
 
 <p></p>
 
