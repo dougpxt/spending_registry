@@ -26,3 +26,6 @@ Usage: Add, update, and delete spending entries using the intuitive interface. E
 spendingReg.py: The entry point of the application, where the GUI window and classes are defined/launched and the spendingRegFunc.py functionality is utilized.
 
 spendingRegFunc.py: Contains the CRUD operations, SQLite database integration.
+
+
+![spendingReg](https://github.com/dougpxt/spending_registry/assets/126816593/c8cc636a-7cab-4f8c-a4a7-641e86b508f8)
