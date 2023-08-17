@@ -2,7 +2,7 @@
 <p>Simplify your expense tracking with the Spending Registry, a Python-based project that offers a user-friendly interface for managing your expenses. The project utilizes SQLite for data storage and retrieval, and it's built using the PySimpleGUI library for creating a graphical user interface.</p>
 
 <h2>Features</h2>
-<p>***CRUD Functionality: Easily Create, Read, and Delete spending data entries. (no update func)</p>
+***<p>CRUD Functionality: Easily Create, Read, and Delete spending data entries. (no update func)</p>
 <p>***SQLite Integration: Utilizes an SQLite database for secure and efficient data storage.</p>
 <p>***PySimpleGUI Interface: Provides an intuitive and visually appealing user interface for fluid interaction.</p>
 <p>***Expense Insights: Gain insights into spending habits through visualized data trends.</p>
