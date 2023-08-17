@@ -9,7 +9,7 @@
 <p>•Data Export: Export your expense data in a formatted TXT file for easy sharing and backup.</p>
 
 <h2>Usage</h2>
-<p>•Installation: Make sure you have Python and SQLite extension on your IDE installed. Clone this repository and navigate to the project directory.</p>
+<p>•Installation: Make sure you have Python and SQLite extension installed on your IDE. Clone this repository and navigate to the project directory.</p>
 <p></p>
 <p>•Dependencies: Install the required dependencies using the following command:</p>
 <p>•pip install PySimpleGUI</p>
@@ -20,12 +20,11 @@
 
 <h2>Code Overview</h2>
 <p><b>The code is organized into two main parts:</b></p>
-
 <p></p>
 <p><b>•spendingReg.py</b>: The entry point of the application, where the GUI window and classes are defined/launched and the spendingRegFunc.py functionality is utilized.
-
 <p><b>•spendingRegFunc.py</b>: Contains the CRUD operations, SQLite database integration.
 
 <p></p>
-<p>project screenshot</p>
+
 ![spendingReg](https://github.com/dougpxt/spending_registry/assets/126816593/c8cc636a-7cab-4f8c-a4a7-641e86b508f8)
+
