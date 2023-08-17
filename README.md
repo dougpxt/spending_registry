@@ -20,7 +20,8 @@ Run the Application: Execute the spendingRegFunc.py script to start the Spending
 Usage: Add, update, and delete spending entries using the intuitive interface. Export your data as a formatted TXT file for record-keeping.
 
 <h2>Code Overview</h2>
-The code is organized into two main parts:
+<p bold>The code is organized into two main parts:</p>
+
 
 spendingReg.py: The entry point of the application, where the GUI window and classes are defined/launched and the spendingRegFunc.py functionality is utilized.
 
