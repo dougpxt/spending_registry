@@ -6,7 +6,7 @@
 <p>•SQLite Integration: Utilizes an SQLite database for secure and efficient data storage.</p>
 <p>•PySimpleGUI Interface: Provides an intuitive and visually appealing user interface for fluid interaction.</p>
 <p>•Expense Insights: Gain insights into spending habits through visualized data trends.</p>
-<p>•Data Export: Export your expense data in a formatted TXT file for easy sharing and backup.</p>
+<p>•Data Export: Export your expense data in a formatted CSV file for easy sharing and backup.</p>
 
 <h2>Usage</h2>
 <p>•Installation: Make sure you have Python and SQLite extension installed on your IDE. Clone this repository and navigate to the project directory.</p>
