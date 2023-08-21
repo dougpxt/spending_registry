@@ -1,4 +1,5 @@
 import PySimpleGUI as sg
+import pandas as pd
 
 import spendingRegFunc
 
@@ -81,17 +82,21 @@ class listGetterSetter:
                     
             elif event == 'DOWNLOAD':
                 list=self._window['-TABLE-'].get()
-                if list: #identifies the target
-                    file_path = sg.popup_get_file('Save As', save_as=True, file_types=(("Text Files", "*.txt"),))
+                list_df = pd.DataFrame(list)
+                header_mapping = {0: 'ID', 1: 'NAME', 2: 'QUANT', 3: 'SELLER', 4: 'VALUE', 5: 'DATE'}
+                list_df = list_df.rename(columns=header_mapping)
+                if list_df.shape[0] > 0:
+                    file_path = sg.popup_get_file('Save As', save_as=True, file_types=(("Comma Separated Values", "*.csv"),))
                     if file_path:
-                        with open(file_path, 'w') as file:
-                            for item in list:
-                                file.write(f"Name: {item[1]}, Quantity: {item[2]}, Seller: {item[3]}, Value: {item[4]}, Date: {item[5]}\n")
-                        sg.popup(f"Data saved to {file_path}", title='Download Complete', keep_on_top=True)
-                else:
-                    sg.popup('No data to download!', title='Warning', keep_on_top=True)
+                        csv_string = list_df.to_csv(index=False)
 
-        self._window.close()   
+                        with open(file_path, 'w') as file:
+                            file.write(csv_string)
+                        sg.popup(f"Data saved to {file_path}", title='Download Complete', keep_on_top=True)
+                    else:
+                        sg.popup('No data to download', title='-WARNING-', keep_on_top=True)
+
+        self._window.close()
                      
 #######################################################################################################################################
 
